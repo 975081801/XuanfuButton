@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEBF39D11D31288900B70041 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBF39D01D31288900B70041 /* main.m */; };
+		EEBF39D41D31288900B70041 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBF39D31D31288900B70041 /* AppDelegate.m */; };
+		EEBF39D71D31288A00B70041 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBF39D61D31288A00B70041 /* ViewController.m */; };
+		EEBF39DA1D31288A00B70041 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBF39D81D31288A00B70041 /* Main.storyboard */; };
+		EEBF39DC1D31288A00B70041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEBF39DB1D31288A00B70041 /* Assets.xcassets */; };
+		EEBF39DF1D31288A00B70041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBF39DD1D31288A00B70041 /* LaunchScreen.storyboard */; };
+		EEBF39EA1D31288A00B70041 /* XuanfuButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBF39E91D31288A00B70041 /* XuanfuButtonTests.m */; };
+		EEBF39F51D31288A00B70041 /* XuanfuButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBF39F41D31288A00B70041 /* XuanfuButtonUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEBF39E61D31288A00B70041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEBF39C41D31288900B70041 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEBF39CB1D31288900B70041;
+			remoteInfo = XuanfuButton;
+		};
+		EEBF39F11D31288A00B70041 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEBF39C41D31288900B70041 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEBF39CB1D31288900B70041;
+			remoteInfo = XuanfuButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEBF39CC1D31288900B70041 /* XuanfuButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XuanfuButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBF39D01D31288900B70041 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEBF39D21D31288900B70041 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEBF39D31D31288900B70041 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEBF39D51D31288900B70041 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEBF39D61D31288A00B70041 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEBF39D91D31288A00B70041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEBF39DB1D31288A00B70041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEBF39DE1D31288A00B70041 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEBF39E01D31288A00B70041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEBF39E51D31288A00B70041 /* XuanfuButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XuanfuButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBF39E91D31288A00B70041 /* XuanfuButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XuanfuButtonTests.m; sourceTree = "<group>"; };
+		EEBF39EB1D31288A00B70041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEBF39F01D31288A00B70041 /* XuanfuButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XuanfuButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBF39F41D31288A00B70041 /* XuanfuButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XuanfuButtonUITests.m; sourceTree = "<group>"; };
+		EEBF39F61D31288A00B70041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEBF39C91D31288900B70041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEBF39E21D31288A00B70041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEBF39ED1D31288A00B70041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEBF39C31D31288900B70041 = {
+			isa = PBXGroup;
+			children = (
+				EEBF39CE1D31288900B70041 /* XuanfuButton */,
+				EEBF39E81D31288A00B70041 /* XuanfuButtonTests */,
+				EEBF39F31D31288A00B70041 /* XuanfuButtonUITests */,
+				EEBF39CD1D31288900B70041 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEBF39CD1D31288900B70041 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEBF39CC1D31288900B70041 /* XuanfuButton.app */,
+				EEBF39E51D31288A00B70041 /* XuanfuButtonTests.xctest */,
+				EEBF39F01D31288A00B70041 /* XuanfuButtonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEBF39CE1D31288900B70041 /* XuanfuButton */ = {
+			isa = PBXGroup;
+			children = (
+				EEBF39D21D31288900B70041 /* AppDelegate.h */,
+				EEBF39D31D31288900B70041 /* AppDelegate.m */,
+				EEBF39D51D31288900B70041 /* ViewController.h */,
+				EEBF39D61D31288A00B70041 /* ViewController.m */,
+				EEBF39D81D31288A00B70041 /* Main.storyboard */,
+				EEBF39DB1D31288A00B70041 /* Assets.xcassets */,
+				EEBF39DD1D31288A00B70041 /* LaunchScreen.storyboard */,
+				EEBF39E01D31288A00B70041 /* Info.plist */,
+				EEBF39CF1D31288900B70041 /* Supporting Files */,
+			);
+			path = XuanfuButton;
+			sourceTree = "<group>";
+		};
+		EEBF39CF1D31288900B70041 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEBF39D01D31288900B70041 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEBF39E81D31288A00B70041 /* XuanfuButtonTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEBF39E91D31288A00B70041 /* XuanfuButtonTests.m */,
+				EEBF39EB1D31288A00B70041 /* Info.plist */,
+			);
+			path = XuanfuButtonTests;
+			sourceTree = "<group>";
+		};
+		EEBF39F31D31288A00B70041 /* XuanfuButtonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEBF39F41D31288A00B70041 /* XuanfuButtonUITests.m */,
+				EEBF39F61D31288A00B70041 /* Info.plist */,
+			);
+			path = XuanfuButtonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEBF39CB1D31288900B70041 /* XuanfuButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEBF39F91D31288A00B70041 /* Build configuration list for PBXNativeTarget "XuanfuButton" */;
+			buildPhases = (
+				EEBF39C81D31288900B70041 /* Sources */,
+				EEBF39C91D31288900B70041 /* Frameworks */,
+				EEBF39CA1D31288900B70041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XuanfuButton;
+			productName = XuanfuButton;
+			productReference = EEBF39CC1D31288900B70041 /* XuanfuButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEBF39E41D31288A00B70041 /* XuanfuButtonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEBF39FC1D31288A00B70041 /* Build configuration list for PBXNativeTarget "XuanfuButtonTests" */;
+			buildPhases = (
+				EEBF39E11D31288A00B70041 /* Sources */,
+				EEBF39E21D31288A00B70041 /* Frameworks */,
+				EEBF39E31D31288A00B70041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEBF39E71D31288A00B70041 /* PBXTargetDependency */,
+			);
+			name = XuanfuButtonTests;
+			productName = XuanfuButtonTests;
+			productReference = EEBF39E51D31288A00B70041 /* XuanfuButtonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EEBF39EF1D31288A00B70041 /* XuanfuButtonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEBF39FF1D31288A00B70041 /* Build configuration list for PBXNativeTarget "XuanfuButtonUITests" */;
+			buildPhases = (
+				EEBF39EC1D31288A00B70041 /* Sources */,
+				EEBF39ED1D31288A00B70041 /* Frameworks */,
+				EEBF39EE1D31288A00B70041 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEBF39F21D31288A00B70041 /* PBXTargetDependency */,
+			);
+			name = XuanfuButtonUITests;
+			productName = XuanfuButtonUITests;
+			productReference = EEBF39F01D31288A00B70041 /* XuanfuButtonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEBF39C41D31288900B70041 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DevGuan;
+				TargetAttributes = {
+					EEBF39CB1D31288900B70041 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					EEBF39E41D31288A00B70041 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EEBF39CB1D31288900B70041;
+					};
+					EEBF39EF1D31288A00B70041 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = EEBF39CB1D31288900B70041;
+					};
+				};
+			};
+			buildConfigurationList = EEBF39C71D31288900B70041 /* Build configuration list for PBXProject "XuanfuButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEBF39C31D31288900B70041;
+			productRefGroup = EEBF39CD1D31288900B70041 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEBF39CB1D31288900B70041 /* XuanfuButton */,
+				EEBF39E41D31288A00B70041 /* XuanfuButtonTests */,
+				EEBF39EF1D31288A00B70041 /* XuanfuButtonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEBF39CA1D31288900B70041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBF39DF1D31288A00B70041 /* LaunchScreen.storyboard in Resources */,
+				EEBF39DC1D31288A00B70041 /* Assets.xcassets in Resources */,
+				EEBF39DA1D31288A00B70041 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEBF39E31D31288A00B70041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEBF39EE1D31288A00B70041 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEBF39C81D31288900B70041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBF39D71D31288A00B70041 /* ViewController.m in Sources */,
+				EEBF39D41D31288900B70041 /* AppDelegate.m in Sources */,
+				EEBF39D11D31288900B70041 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEBF39E11D31288A00B70041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBF39EA1D31288A00B70041 /* XuanfuButtonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEBF39EC1D31288A00B70041 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEBF39F51D31288A00B70041 /* XuanfuButtonUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEBF39E71D31288A00B70041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEBF39CB1D31288900B70041 /* XuanfuButton */;
+			targetProxy = EEBF39E61D31288A00B70041 /* PBXContainerItemProxy */;
+		};
+		EEBF39F21D31288A00B70041 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEBF39CB1D31288900B70041 /* XuanfuButton */;
+			targetProxy = EEBF39F11D31288A00B70041 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEBF39D81D31288A00B70041 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEBF39D91D31288A00B70041 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEBF39DD1D31288A00B70041 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEBF39DE1D31288A00B70041 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEBF39F71D31288A00B70041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEBF39F81D31288A00B70041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEBF39FA1D31288A00B70041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XuanfuButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GFS.1990.XuanfuButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEBF39FB1D31288A00B70041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = XuanfuButton/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GFS.1990.XuanfuButton;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEBF39FD1D31288A00B70041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XuanfuButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GFS.1990.XuanfuButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XuanfuButton.app/XuanfuButton";
+			};
+			name = Debug;
+		};
+		EEBF39FE1D31288A00B70041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = XuanfuButtonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GFS.1990.XuanfuButtonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XuanfuButton.app/XuanfuButton";
+			};
+			name = Release;
+		};
+		EEBF3A001D31288A00B70041 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XuanfuButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GFS.1990.XuanfuButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XuanfuButton;
+			};
+			name = Debug;
+		};
+		EEBF3A011D31288A00B70041 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = XuanfuButtonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GFS.1990.XuanfuButtonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = XuanfuButton;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEBF39C71D31288900B70041 /* Build configuration list for PBXProject "XuanfuButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEBF39F71D31288A00B70041 /* Debug */,
+				EEBF39F81D31288A00B70041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEBF39F91D31288A00B70041 /* Build configuration list for PBXNativeTarget "XuanfuButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEBF39FA1D31288A00B70041 /* Debug */,
+				EEBF39FB1D31288A00B70041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEBF39FC1D31288A00B70041 /* Build configuration list for PBXNativeTarget "XuanfuButtonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEBF39FD1D31288A00B70041 /* Debug */,
+				EEBF39FE1D31288A00B70041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EEBF39FF1D31288A00B70041 /* Build configuration list for PBXNativeTarget "XuanfuButtonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEBF3A001D31288A00B70041 /* Debug */,
+				EEBF3A011D31288A00B70041 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEBF39C41D31288900B70041 /* Project object */;
+}
