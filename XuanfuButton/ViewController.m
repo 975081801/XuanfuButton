@@ -7,16 +7,19 @@
 //
 
 #import "ViewController.h"
-
+#import "XuanfuBtn.h"
 @interface ViewController ()
-
+@property(nonatomic,weak)XuanfuBtn *xuanfu;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor lightGrayColor];
+    XuanfuBtn *xuanfu = [[XuanfuBtn alloc]initWithFrame:CGRectMake(30, 90, 60, 60)];
+    [self.view addSubview:xuanfu];
+    self.xuanfu = xuanfu;
 }
 
 - (void)didReceiveMemoryWarning {

@@ -15,6 +15,7 @@
 		EEBF39DF1D31288A00B70041 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEBF39DD1D31288A00B70041 /* LaunchScreen.storyboard */; };
 		EEBF39EA1D31288A00B70041 /* XuanfuButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBF39E91D31288A00B70041 /* XuanfuButtonTests.m */; };
 		EEBF39F51D31288A00B70041 /* XuanfuButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBF39F41D31288A00B70041 /* XuanfuButtonUITests.m */; };
+		EEBF3A041D3128B500B70041 /* XuanfuBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = EEBF3A031D3128B500B70041 /* XuanfuBtn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		EEBF39F01D31288A00B70041 /* XuanfuButtonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XuanfuButtonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEBF39F41D31288A00B70041 /* XuanfuButtonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XuanfuButtonUITests.m; sourceTree = "<group>"; };
 		EEBF39F61D31288A00B70041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEBF3A021D3128B500B70041 /* XuanfuBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XuanfuBtn.h; sourceTree = "<group>"; };
+		EEBF3A031D3128B500B70041 /* XuanfuBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XuanfuBtn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 			children = (
 				EEBF39D21D31288900B70041 /* AppDelegate.h */,
 				EEBF39D31D31288900B70041 /* AppDelegate.m */,
+				EEBF3A021D3128B500B70041 /* XuanfuBtn.h */,
+				EEBF3A031D3128B500B70041 /* XuanfuBtn.m */,
 				EEBF39D51D31288900B70041 /* ViewController.h */,
 				EEBF39D61D31288A00B70041 /* ViewController.m */,
 				EEBF39D81D31288A00B70041 /* Main.storyboard */,
@@ -271,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEBF39D71D31288A00B70041 /* ViewController.m in Sources */,
+				EEBF3A041D3128B500B70041 /* XuanfuBtn.m in Sources */,
 				EEBF39D41D31288900B70041 /* AppDelegate.m in Sources */,
 				EEBF39D11D31288900B70041 /* main.m in Sources */,
 			);
@@ -414,6 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XuanfuButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GFS.1990.XuanfuButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -425,6 +432,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = XuanfuButton/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GFS.1990.XuanfuButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
